@@ -3,9 +3,6 @@
 using namespace std;
 int main()
 {
-    string a;
-    cout << "Enter your name ";
-    getline(cin,a);
-    cout<<"Hello  " <<a;
+    cout<< "Hello World!";
     return 0;
 }
