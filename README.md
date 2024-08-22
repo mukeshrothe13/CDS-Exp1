@@ -79,10 +79,13 @@ int main()
 ```
 # Output-
 Hello World-
+
 ![Screenshot 2024-08-22 201753](https://github.com/user-attachments/assets/3ed7abbb-0baf-4f52-be90-b61fcad56386)
 Calculator-
+
 ![Screenshot 2024-08-22 202235](https://github.com/user-attachments/assets/0ae6a222-1d3d-435e-8a54-8f48acd1c67a)
 User Input-
+
 ![Screenshot 2024-08-22 202600](https://github.com/user-attachments/assets/eed267ed-1d3c-4bbd-a447-e9370fe09c57)
 
 ## Conclusion-
