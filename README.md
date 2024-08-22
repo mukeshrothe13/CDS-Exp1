@@ -1,40 +1,35 @@
-# Aim:
-To learn about VS code and getting input from user and displaying it.
 
-# Software Used
-VS Code
+## Aim-
+To learn how to use VS Code for programming and how to handle user input and output in C++.
 
-# Problem Statement
- 1.) Write a program to print simple 'Hello world' message.
+## Software Used-
+- VS Code
 
- 2.) Write a program to get the  input from user and displaying it.
- 
- 3.) Write a program to create a basic calculator.
+## Problem Statements-
 
- # Theory
-To print a message or output we use _'cout'_ .
+1. **Print a Simple 'Hello World' Message**
+   - Write a program that outputs the message "Hello World".
 
-The namespace is used to decrease or limit the scope of any variable or function.
- 
- _'endl'_ is used to move the cursor to the new line.
+2. **Get User Input and Display It**
+   - Write a program that takes input from the user and displays it back.
+
+3. **Create a Basic Calculator**
+   - Write a program that performs basic arithmetic operations (addition, subtraction, multiplication, division) based on user input.
+
+## Theory-
+
+- **`cout`**: Used to print messages or output to the console.
+- **Namespace**: Helps to avoid naming conflicts by limiting the scope of variables and functions.
+- **`endl`**: Used to insert a newline character and flush the output buffer.
+
+---
 
 
-## Program Codes
+## Program Codes-
 
 
 ```javascript
-//Print hello world
-#include<iostream>
-using namespace std;
-int main()
-{
-    cout<< "Hello World!";
-    return 0;
-}
-
-
- 
-// Input from user
+//Mukesh Rothe //23070123089 //CDS EXP1
 #include<iostream>
 using namespace std;
 int main()
@@ -46,36 +41,55 @@ int main()
     return 0;
 }
 
-//Calculator 
+//Mukesh Rothe //23070123089 //CDS EXP1
+#include <iostream>
+using namespace std;
+int main() 
+{
+
+    int a,b,product, sum,answer;
+    float quotient;
+    cout<<"Enter the value of a:\n";
+    cin>>a;
+    cout<<"Enter the value of b:\n";
+    cin>>b;
+    quotient=a/b;
+    cout<<"The solution of a/b:"<<quotient<<"\n";
+    product=a*b;
+    cout<<"The solution of a*b:"<<product<<"\n";
+    sum=a+b;
+    cout<<"The solution of a+b:"<<sum<<"\n";
+    answer=a-b;
+    cout<<"The solution of a-b:"<<answer<<"\n";
+
+    return 0;
+}
+
+//Mukesh Rothe //23070123089 //CDS EXP1
 #include<iostream>
 using namespace std;
 int main()
-{ float a,b,c,d,e,f;
-    cout<<"enter first number ";
-    cin >> a;
-    cout<< "enter second number ";
-    cin >> b;
-    c = a+b ;
-    cout << "Sum is: " <<c<<endl;
-    d = a-b;
-    cout<< "Difference is: "<<d<<endl;
-    e = a*b;
-    cout<<"Product is:" << e <<endl;
-    f = a/b;
-    cout<<"Quotient is: "<<f<<endl;
+{
+    string a;
+    cout << "Enter your name ";
+    getline(cin,a);
+    cout<<"Hello  " <<a;
     return 0;
 }
 ```
-# Output:
-1.) 1a_helloworld
-![image](https://github.com/user-attachments/assets/599d8191-8b35-421a-be37-4b3ff6d2839c)
-2.) 1b_calci
-![image](https://github.com/user-attachments/assets/97de8669-a80f-4545-bb11-121f0786a55c)
-3.) 1c_userinput
-![image](https://github.com/user-attachments/assets/c07d5118-c789-49a6-aeb3-e02cac75c595)
+# Output-
+Hello World-
+
+Calculator-
+
+User Input-
 
 
 
 
-# Conclusion
-We learnt how to take input from user and print it, we learnt to use basic operators like +, - , * and /.
+## Conclusion-
+
+In this tutorial, we learned how to:
+- Take input from the user and display it using C++.
+- Implement basic arithmetic operations such as addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`).
+
