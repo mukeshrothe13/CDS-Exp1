@@ -34,10 +34,7 @@ To learn how to use VS Code for programming and how to handle user input and out
 using namespace std;
 int main()
 {
-    string a;
-    cout << "Enter your name ";
-    getline(cin,a);
-    cout<<"Hello  " <<a;
+    cout<< "Hello World!";
     return 0;
 }
 
